@@ -27,6 +27,6 @@ def call_free(prompt):
             if txt:
                 return f"{m}\n{txt}"
         except Exception as e:
-            print(f"{m} fail {e}")   
+            print(f"{m} fail {e}")
 
     return "no free message: check https://openrouter.ai for free models"             
